@@ -29,17 +29,19 @@ Clone the repository to your local machine
 npm install
 
 Create a new MySQL database. You can name it pincode_db:
-1.CREATE DATABASE pincode_db;
-2. USE pincode_db;
-3. CREATE TABLE favourites (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    branchType VARCHAR(255),
-    deliveryStatus VARCHAR(255),
-    district VARCHAR(255),
-    region VARCHAR(255),
-    state VARCHAR(255)
-);
+1. ```sh CREATE DATABASE pincode_db;```
+2. ```sh USE pincode_db;```
+3. ```sh 
+  CREATE TABLE favourites (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      name VARCHAR(255),
+      branchType VARCHAR(255),
+      deliveryStatus VARCHAR(255),
+      district VARCHAR(255),
+      region VARCHAR(255),
+      state VARCHAR(255)
+  );
+```
 4. Open the backend/index.js file and configure your MySQL credentials
 5. npm start
 
