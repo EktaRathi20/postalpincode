@@ -31,7 +31,8 @@ npm install
 Create a new MySQL database. You can name it pincode_db:
 1. ```sh CREATE DATABASE pincode_db;```
 2. ```sh USE pincode_db;```
-3. ```sh CREATE TABLE favourites (
+3. ```sh
+   CREATE TABLE favourites (
       id INT AUTO_INCREMENT PRIMARY KEY,
       name VARCHAR(255),
       branchType VARCHAR(255),
